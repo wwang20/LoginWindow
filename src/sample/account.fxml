@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controllers.AccountSummaryController">
+   <children>
+      <TabPane prefHeight="800.0" prefWidth="927.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Account summary">
+               <content>
+                  <fx:include source="tabs/account_summary.fxml" />
+               </content>
+            </Tab>
+          <Tab text="Add bank account">
+               <content>
+                  <fx:include source="tabs/add_bank_account.fxml" />
+               </content>
+          </Tab>
+          <Tab text="Loan and bursaries">
+               <content>
+                  <fx:include source="tabs/loan_bursaries.fxml" />
+               </content>
+          </Tab>
+            <Tab text="Budget">
+               <content>
+                  <fx:include source="tabs/budget.fxml" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <JFXButton fx:id="btn_Logout" layoutX="927.0" layoutY="38.0" prefHeight="36.0" prefWidth="65.0" text="Logout" textFill="#f80202">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

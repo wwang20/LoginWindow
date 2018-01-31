@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" fx:controller="sample.Controllers.SignUpController" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXTextField editable="false" layoutX="145.0" layoutY="53.0" prefHeight="44.0" prefWidth="82.0" text="SIGNUP">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="145.0" layoutY="159.0" prefHeight="25.0" prefWidth="135.0" promptText="First name">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton layoutX="425.0" layoutY="472.0" prefHeight="56.0" prefWidth="194.0" text="Confirm singup" textFill="#fc0606">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="193.0" layoutY="485.0" text="I am already a member" textFill="#59d04e">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField layoutX="323.0" layoutY="159.0" prefHeight="25.0" prefWidth="135.0" promptText="Last name">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="502.0" layoutY="159.0" prefHeight="25.0" prefWidth="135.0" promptText="Middle name">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="145.0" layoutY="230.0" prefHeight="25.0" prefWidth="135.0" promptText="Email">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField layoutX="323.0" layoutY="230.0" prefHeight="25.0" prefWidth="135.0" promptText="phone number">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField layoutX="316.0" layoutY="313.0" prefHeight="37.0" prefWidth="150.0" promptText="Password">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXPasswordField layoutX="316.0" layoutY="384.0" prefHeight="37.0" prefWidth="150.0" promptText="Password Varification">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </JFXPasswordField>
+   </children>
+</AnchorPane>
